@@ -1,0 +1,166 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+}
+body{
+    height: 1100px;
+    background: linear-gradient(-180deg, #321a1a ,  #c13030);
+
+}   
+nav div img{
+    height: 80px;
+}
+.mid .box-div{
+    background-color: black;
+    height: 950px;
+    width: 700px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+
+}
+.mid{
+    padding-left: 350px;
+    
+}
+.mid .box-div{
+    background-color: #121212;
+}
+
+.box-div h1{
+    text-align: center;
+    font-size: 40px;
+}
+.box-div div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.box-div div .box-a,.box-div div .box-b{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.box-div div .box-a label{
+    padding-right: 220px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.box-div div .box-b label{
+    padding-right: 280px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.box-div div .box-c label{
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.box-div div input{
+    width: 350px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    background-color: transparent;
+}
+.box-div div .box-c{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    padding-left: 175px;
+}
+.box-div div div span{
+    font-size: 30px;
+    color: #eb6050;
+}
+.box-div div div label{
+    font-size: 16px;
+}
+.box-div .two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.box-div .two button{
+    height: 50px;
+    background-color: #eb6050;
+    border-radius: 30px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    width: 350px;
+}
+.box-div .two button a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.box-div .two button:hover, .box-div div div span:hover{
+    opacity: 0.7;
+}
+.box-div .two span a{
+    /* padding-left: 100px; */
+    font-family: sans-serif;
+    font-weight: 100;
+    opacity: 0.8;
+    font-size: 16px;
+}
+.line{
+    background-color: white;
+    width: 500px;
+    height: 1px;
+    opacity: 0.1;
+    align-self: center;
+}
+
+.box-div .three{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-div .three button{
+    height: 50px;
+    width: 350px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid gray;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    
+}
+.box-div .three button img{
+    height: 30px;
+    padding-left: 50px;
+}
+.box-div .three button a{
+    text-decoration: none;
+    font-family: sans-serif;    
+}
+.box-div .three button:hover{
+    opacity: 0.5;
+}
+.box-div .three span a, .box-div .three span{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+}
